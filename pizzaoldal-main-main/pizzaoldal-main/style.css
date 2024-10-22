@@ -1,10 +1,14 @@
 header{
-
-
-
-
-    
+    background-image: url(kepek/pizza.jpg);
+    height: 300px;
+    margin: 0 auto;
+    background-size: cover;
+    color: white;
 }
+
+
+
+
 
 
 
