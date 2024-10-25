@@ -5,22 +5,34 @@ body{
 header{
     background-image: url(kepek/pizza.jpg);
     height: 400px;
-    margin: 0 auto;
+  
     background-size: cover;
     color: white;
 } 
-.Piadinapizza{
-    background-color: black;
+#Piadinapizza{
+    background-color: rgb(104, 100, 100);
     width: auto;
-    height: 1200px;
-    float: right;
-    text-align: justify;
+    height: auto;
+   
+    text-align: center;
     
     
 
 }
+#szoveg1{
+  float: right;
+  margin-left: 10%;
+  
+}
 h2{
-    float: left;
+  float: left;
+  margin-left: 10%;
+ 
+
+
+
+  
+  
 }
 .topnav {
     
@@ -42,6 +54,13 @@ h2{
   }
   .active {
     color: white;}
+
+
+#MENU{
+  margin: 0 auto;
+ 
+
+}
   
   
  
