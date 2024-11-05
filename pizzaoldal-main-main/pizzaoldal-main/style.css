@@ -26,6 +26,7 @@ header{
   margin-left: 30%;
   margin-right: 30%;
   margin-top: -5%;
+ 
   
   width: 30%;
 
@@ -46,6 +47,11 @@ h2{
 .topnav {
     
     overflow: hidden;
+  
+    float: right;
+    width: 300px;
+    margin-top: -5%
+   
    
    
   }
@@ -58,12 +64,7 @@ h2{
     font-size: 17px;
   }
   
-  .topnav a.icon {
-    float: right;
 
-  }
-  .active {
-    color: white;}
 
 
 #MENU{
@@ -76,14 +77,17 @@ h2{
   text-align: center;
 
 }
-#MENUbox{
-  color: white;
-  padding: 20px 10px;
+#szovegMENU
+{
+  margin-top: 8%;
+  margin-bottom: 8%;
   
- 
 
 }
-  
+h3{
+  margin: 0 auto;
+  text-align: center;
+}
   
  
 
