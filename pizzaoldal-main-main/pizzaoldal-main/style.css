@@ -76,6 +76,8 @@ h2{
   margin: auto;
   text-align: center;
 
+
+
 }
 #szovegMENU
 {
@@ -87,6 +89,20 @@ h2{
 h3{
   margin: 0 auto;
   text-align: center;
+}
+#pizza2
+{
+  width: 420px;
+  height: 300px;
+  display: inline-block;
+  margin: auto;
+}
+#marhapecsenye
+{
+  width: 250px;
+  height: 400px;
+  display: inline-block;
+  margin: auto;
 }
   
  
