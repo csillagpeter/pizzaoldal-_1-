@@ -155,6 +155,11 @@ h3{
   margin: 0;
 
 }
+footer
+{
+  text-align: center;
+  color: darkgrey;
+}
 
 
 
@@ -180,7 +185,8 @@ h3{
 {
   float: right;
   width: 250px;
-  margin-top: -60%;
+  margin-top: -40%;
+  margin-right: 2%;
 
   
   padding: 2%;
@@ -200,7 +206,7 @@ margin-bottom: 2%;
 
 }
 
-@media only screen and (max-width: 850px) 
+@media only screen and (max-width: 920px) 
 {
   #Asztalfoglalás
   {
@@ -215,6 +221,15 @@ margin-bottom: 2%;
     text-align: center;
 
   }
+
+}
+@media only screen and (max-width: 975px)
+{
+  #szoveg1{
+    text-indent: 0%;  
+  }
+  
+
 
 }
 
