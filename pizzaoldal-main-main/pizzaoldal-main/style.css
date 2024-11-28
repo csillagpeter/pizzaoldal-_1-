@@ -93,6 +93,30 @@ h3{
   margin: 0 auto;
   text-align: center;
 }
+#kepszov1
+{
+  position: relative;
+  text-align: center;
+  color: white;
+  bottom: 15%;
+  
+}
+#kepszov2
+{
+  position: relative;
+  text-align: center;
+  color: white;
+  bottom: 25%;
+}
+#kepszov3
+{
+  position: relative;
+  position: relative;
+  text-align: center;
+  color: white;
+  bottom: 40%;
+
+}
 .gallery {
  
   display: grid;
