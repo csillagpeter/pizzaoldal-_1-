@@ -16,16 +16,17 @@ header{
     width: auto;
     height: 250px;
    
-    text-align: center;
-    
-    
 
 }
 #szoveg1{
   float: right;
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-top: -5%;
+  margin: auto;
+  width: 100%;
+  height: 70%;
+
+
+ 
+  
  
   
   width: 30%;
@@ -49,7 +50,7 @@ h2{
     overflow: hidden;
   
     float: right;
-    width: 300px;
+   
     margin-top: -5%
    
    
@@ -61,7 +62,7 @@ h2{
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 13px;
   }
   a{
     color: white;
@@ -114,8 +115,16 @@ h3{
   position: relative;
   text-align: center;
   color: white;
-  bottom: 40%;
+  bottom: 25%;
 
+}
+#kepszov4
+{
+  position: relative;
+  position: relative;
+  text-align: center;
+  color: white;
+  bottom: 29%;
 }
 .gallery {
  
@@ -247,10 +256,12 @@ margin-bottom: 2%;
   }
 
 }
-@media only screen and (max-width: 975px)
+@media only screen and (max-width: 840px)
 {
   #szoveg1{
+    float: right;
     text-indent: 0%;  
+    max-height: 30px;
   }
   
 
