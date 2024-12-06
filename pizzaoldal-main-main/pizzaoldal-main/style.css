@@ -36,8 +36,9 @@ header{
 .topnav {
     
     overflow: hidden;
+    padding-top: 2%;
+    padding-right: 2%;
   
-    float: right;
    
     margin-top: -5%
    
@@ -51,6 +52,7 @@ header{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 13px;
+    
   }
   a{
     color: white;
@@ -226,6 +228,9 @@ footer
 h1
 {
   margin-left: 3%;
+  padding-top: 2%;
+  margin: 0;
+  padding-left: 2%;
 }
 #special
 {
