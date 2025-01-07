@@ -2,6 +2,7 @@
 body{
     background-color: black;
     color: white;
+
 }
 header{
     background-image: url(kepek/pizza.jpg);
@@ -24,11 +25,16 @@ header{
 
 }
 #szoveg1{
-  float: right;
+  
   margin-left: 34%;
   margin-right: 30%;
-  margin-top: -7%;
-  margin-bottom: 5%;
+  align-items: center;
+ 
+ 
+ 
+  padding: 2%;
+  
+
 }
 
 
@@ -74,6 +80,11 @@ header{
 
 
 }
+#cimsor 
+{
+  padding: 1%;
+
+}
 
 
   
@@ -91,6 +102,7 @@ header{
 h3{
   margin: 0 auto;
   text-align: center;
+  padding: 2%;
 }
 #kepszov1
 {
@@ -257,21 +269,25 @@ padding-bottom: 1%;
 {
   #Asztalfoglalás
   {
-    float: none;
-    margin: auto;
     
-
+    margin: auto;
+    padding: 1%;
   }
   #cim
   {
     margin: 0;
-    float: none;
-    text-align: center;
     
+    text-align: center;  
   }
   p{
     margin: 0;
   }
+  #nyitavtartas
+  {
+
+
+  }
+
 
 }
 @media only screen and (max-width: 840px)
