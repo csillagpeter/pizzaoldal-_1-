@@ -46,6 +46,7 @@ header{
     overflow: hidden;
     padding-top: 2%;
     padding-right: 2%;
+    float: right;
   
    
     margin-top: -5%
@@ -315,11 +316,70 @@ padding-bottom: 1%;
 
 
 }
+}
+@media (max-width: 840px) {
+.gallery {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 8vw);
+    display: block;
 
-  
+}
 
 
 }
+
+.menu {
+  display: none;
+  flex-direction: column;
+  background-color: #444;
+  position: absolute;
+  top: 50px;
+  right: 2%;
+  z-index: 1;
+  width: auto;
+  
+}
+
+.menu a {
+  text-align: right;
+  padding: 10px;
+  border-bottom: 1px solid #555;
+}
+
+.menu a:last-child {
+  border-bottom: none;
+}
+.icon {
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+}
+@media screen and (min-width: 600px) {
+  .menu {
+      display: flex;
+      flex-direction: row;
+      position: static;
+      background-color: transparent;
+      top: auto;
+      right: auto;
+  }
+
+  .icon {
+      display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
   
